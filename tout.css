@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: rgb(255, 157, 0);;
+}
+.swiper-slide {
+    height: 80vh;
+}
+
+.swiper-slide {
+    
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 100px;
+}
+
+.slide-dw {
+    background-image: url('dw-js.jpg');
+    background-size: cover;
+}
+
+.slide-cd {
+    background-image: url('cd-js.jpeg');
+    background-size: cover;
+}
+
+.slide-cdeb {
+    background-image: url('cdeb-js.jpg');
+    background-size: cover;
+}
+.subtitle {
+    color: #ffffff;
+    font-size: 24px;
+    text-transform: lowercase;
+    letter-spacing: 3px;
+    background-color: rgb(184, 113, 0);
+}
+
+.title {
+    font-weight: bold;
+    font-size: 72px;
+    color: rgb(255, 255, 255);
+    text-transform: lowercase;
+    background-color: rgb(255, 157, 0);
+}
+
+body .swiper-pagination-bullet {
+    width: 18px;
+    height: 18px;
+}
+
+body .swiper-pagination-bullet-active {
+    background: orangered;
+}
+
+body .swiper-button-next,
+body .swiper-button-prev {
+    color: orangered;
+}
+
+.portfolio {
+    padding: 80px 40px;
+    background-color: #F6F8FA;
+}
+
+
+.portfolio-elements {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.card {
+width: 30%;
+background-color: #ffffff;
+}
+
+.card-header {
+    padding: 20px 40px;
+    background-color: #222D3B;
+}
+
+.card-title {
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+    
+.card-axe {
+    font-size: 14px;
+    color: #87878a;
+    margin-top: 6px;
+}
+ 
+.card img {
+    display: block;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.filters {
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+    
+.filters ul {
+    display: flex; 
+    gap: 20px;
+}
+
+.filters li {
+    color: #ffffff;
+    background-color: orangered;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.filters li.active {
+    background-color: orange;
+}
+
+.portfolio-elements {
+    padding: 50px 0 !important;
+}
+
+footer {
+    background-color: orangered;
+    padding-top: 15px;
+    padding-bottom: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    margin-bottom: 3px;
+    padding: 10px;
+    text-align: right;
+    display: flex;
+    float: right;
+    background-color: #222D3B;
+    color: white;
+    margin-right: 30px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+ul {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    text-decoration: none;
+}
+
+.filters {
+    text-decoration: none;
+}
+
+:active {
+    text-decoration: none;
+}
